@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: weather-api
+server:
+  servlet:
+    context-path: /weather-api
+service:
+  authToken: c3acd753f1fe59c2a28f45c360271099
+  weather-api: http://api.openweathermap.org/data/2.5/weather
+  advices:
+    Clear:
+      - minTemp: 10.9
+        maxTemp: 500
+        windSpeedMin: 0
+        windSpeedMax: 100
+        advice: Sit at home, please
+    Snow:
+      - minTemp: 10.9
+        maxTemp: 500
+        windSpeedMin: 0
+        windSpeedMax: 100
+        advice: Sit at home, please
